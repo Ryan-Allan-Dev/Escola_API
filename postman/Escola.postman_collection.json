@@ -1,0 +1,61 @@
+{
+  "info": {
+    "_postman_id": "ec2872c9-0e61-4db1-b761-0ed283139560",
+    "name": "Escola",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60291807",
+    "_collection_link": "https://go.postman.co/collection/60291807-ec2872c9-0e61-4db1-b761-0ed283139560?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Buscar  Todos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7019/api/curso",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7019",
+          "path": [
+            "api",
+            "curso"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ATUALIZAR",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n   \"Nome\": \"C# 2\",\r\n\"CargaHoraria\":200\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7019/api/curso/1",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7019",
+          "path": [
+            "api",
+            "curso",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
